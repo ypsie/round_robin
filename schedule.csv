@@ -1,31 +1,91 @@
-Day,Player Home,Team Home,Home Score,Away Score,Away Team,Away Player
-1,Yoko,Rams, , ,Lions,John
-1,Linda,Chiefs, , ,Packers,Ringo
-1,George,Dolphins, , ,Seahawks,Paul
-2,Yoko,Vikings, , ,Dolphins,Ringo
-2,John,49ers, , ,Packers,Paul
-2,Linda,Seahawks, , ,Panthers,George
-3,Yoko,Chiefs, , ,Patriots,Paul
-3,Ringo,Seahawks, , ,Rams,George
-3,John,Vikings, , ,Panthers,Linda
-4,Yoko,Packers, , ,Vikings,George
-4,Paul,Chiefs, , ,49ers,Linda
-4,Ringo,Panthers, , ,Seahawks,John
-5,Yoko,Lions, , ,Dolphins,Linda
-5,George,49ers, , ,Packers,John
-5,Paul,Panthers, , ,Chiefs,Ringo
-6,John,Panthers, , ,49ers,Yoko
-6,Ringo,Patriots, , ,Lions,Linda
-6,Paul,Rams, , ,Chiefs,George
-7,Ringo,Rams, , ,Dolphins,Yoko
-7,Paul,Vikings, , ,Patriots,John
-7,George,Lions, , ,Packers,Linda
-8,Paul,Lions, , ,Patriots,Yoko
-8,George,Packers, , ,Vikings,Ringo
-8,Linda,Rams, , ,Chiefs,John
-9,George,Patriots, , ,Seahawks,Yoko
-9,Linda,Vikings, , ,49ers,Paul
-9,John,Dolphins, , ,Lions,Ringo
-10,Linda,Patriots, , ,Panthers,Yoko
-10,John,Rams, , ,Seahawks,George
-10,Ringo,49ers, , ,Dolphins,Paul
+Spieltag,Heimspieler,Heimmannschaft,Heimtore,Auswärtstore,Auswärtsmannschaft,Auswärtsspieler
+1,Yps,Frankfurt, , ,Arminia,Max Powers
+1,Diet,Leverkusen, , ,Wolfsburg,Bensteiger
+1,David,Stuttgart, , ,Union,Jonas
+1,Maxi,Gladbach, , ,Schalke,Andi
+1,Micha,Leipzig, , ,Köln,Yannik
+2,Yps,Hertha, , ,Gladbach,Bensteiger
+2,Max Powers,Freiburg, , ,Bremen,Jonas
+2,Diet,Hoffenheim, , ,Frankfurt,Andi
+2,David,Augsburg, , ,Mainz,Yannik
+2,Maxi,Dortmund, , ,Union,Micha
+3,Yps,Leverkusen, , ,Wolfsburg,Jonas
+3,Bensteiger,Bayern, , ,Mainz,Andi
+3,Max Powers,Leipzig, , ,Union,Yannik
+3,Diet,Freiburg, , ,Frankfurt,Micha
+3,David,Arminia, , ,Hertha,Maxi
+4,Yps,Hoffenheim, , ,Bremen,Andi
+4,Jonas,Augsburg, , ,Stuttgart,Yannik
+4,Bensteiger,Köln, , ,Leverkusen,Micha
+4,Max Powers,Dortmund, , ,Union,Maxi
+4,Diet,Mainz, , ,Bayern,David
+5,Yps,Bayern, , ,Leverkusen,Yannik
+5,Andi,Dortmund, , ,Augsburg,Micha
+5,Jonas,Hertha, , ,Arminia,Maxi
+5,Bensteiger,Freiburg, , ,Gladbach,David
+5,Max Powers,Köln, , ,Union,Diet
+6,Yps,Gladbach, , ,Dortmund,Micha
+6,Yannik,Schalke, , ,Augsburg,Maxi
+6,Andi,Union, , ,Hertha,David
+6,Jonas,Köln, , ,Leipzig,Diet
+6,Bensteiger,Frankfurt, , ,Wolfsburg,Max Powers
+7,Yps,Leipzig, , ,Frankfurt,Maxi
+7,Micha,Hertha, , ,Freiburg,David
+7,Yannik,Hoffenheim, , ,Gladbach,Diet
+7,Andi,Augsburg, , ,Bayern,Max Powers
+7,Jonas,Mainz, , ,Leverkusen,Bensteiger
+8,Yps,Schalke, , ,Bremen,David
+8,Maxi,Mainz, , ,Köln,Diet
+8,Micha,Bayern, , ,Hertha,Max Powers
+8,Yannik,Leipzig, , ,Union,Bensteiger
+8,Andi,Hoffenheim, , ,Leverkusen,Jonas
+9,Yps,Mainz, , ,Stuttgart,Diet
+9,David,Schalke, , ,Union,Max Powers
+9,Maxi,Leverkusen, , ,Dortmund,Bensteiger
+9,Micha,Gladbach, , ,Frankfurt,Jonas
+9,Yannik,Bayern, , ,Wolfsburg,Andi
+10,Max Powers,Stuttgart, , ,Dortmund,Yps
+10,Bensteiger,Schalke, , ,Hertha,Diet
+10,Jonas,Hoffenheim, , ,Leipzig,David
+10,Andi,Gladbach, , ,Bremen,Maxi
+10,Yannik,Wolfsburg, , ,Freiburg,Micha
+11,Bensteiger,Stuttgart, , ,Augsburg,Yps
+11,Jonas,Leipzig, , ,Schalke,Max Powers
+11,Andi,Arminia, , ,Frankfurt,Diet
+11,Yannik,Gladbach, , ,Mainz,David
+11,Micha,Bremen, , ,Hoffenheim,Maxi
+12,Jonas,Stuttgart, , ,Freiburg,Yps
+12,Andi,Leverkusen, , ,Hoffenheim,Bensteiger
+12,Yannik,Augsburg, , ,Frankfurt,Max Powers
+12,Micha,Wolfsburg, , ,Dortmund,Diet
+12,Maxi,Leipzig, , ,Union,David
+13,Andi,Köln, , ,Stuttgart,Yps
+13,Yannik,Arminia, , ,Gladbach,Jonas
+13,Micha,Hoffenheim, , ,Bremen,Bensteiger
+13,Maxi,Freiburg, , ,Augsburg,Max Powers
+13,David,Dortmund, , ,Bayern,Diet
+14,Yannik,Freiburg, , ,Köln,Yps
+14,Micha,Mainz, , ,Stuttgart,Andi
+14,Maxi,Wolfsburg, , ,Dortmund,Jonas
+14,David,Frankfurt, , ,Arminia,Bensteiger
+14,Diet,Schalke, , ,Bremen,Max Powers
+15,Micha,Schalke, , ,Union,Yps
+15,Maxi,Köln, , ,Dortmund,Yannik
+15,David,Hoffenheim, , ,Bayern,Andi
+15,Diet,Augsburg, , ,Arminia,Jonas
+15,Max Powers,Gladbach, , ,Leipzig,Bensteiger
+16,Maxi,Stuttgart, , ,Bremen,Yps
+16,David,Leverkusen, , ,Arminia,Micha
+16,Diet,Wolfsburg, , ,Frankfurt,Yannik
+16,Max Powers,Hoffenheim, , ,Hertha,Andi
+16,Bensteiger,Mainz, , ,Freiburg,Jonas
+17,David,Wolfsburg, , ,Arminia,Yps
+17,Diet,Bremen, , ,Schalke,Maxi
+17,Max Powers,Leverkusen, , ,Köln,Micha
+17,Bensteiger,Augsburg, , ,Hertha,Yannik
+17,Jonas,Bayern, , ,Freiburg,Andi
+18,Diet,Arminia, , ,Wolfsburg,Yps
+18,Max Powers,Mainz, , ,Köln,David
+18,Bensteiger,Hertha, , ,Bayern,Maxi
+18,Jonas,Schalke, , ,Stuttgart,Micha
+18,Andi,Leipzig, , ,Bremen,Yannik
