@@ -1,4 +1,5 @@
 # round_robin
+# Round robin tournament scheduling
 teams.py creates a 2round robin tournament with randomly assigning user defined teams to players.
 
 Each player plays with one team exactly once.
