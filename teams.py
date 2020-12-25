@@ -8,6 +8,8 @@ class RoundRobin():
         self.player_list = players
         self.player_count, _ = self.player_list.shape
         self.teams = teams
+        
+        
         self.player_dict = {}
         self.games = 1
 
@@ -15,7 +17,10 @@ class RoundRobin():
             bye = np.array(['Bye-week'])
             self.player_list = np.concatenate((self.player_list, [bye]))
             self.player_count += 1
-    
+        
+        if (self.player_count - 1)*2 > len(self.teams):
+            raise Exception("No. of teams must at least be > 2*(No. of players - 1)") 
+
     def print_players(self):
         print(self.player_list)
         
@@ -50,7 +55,8 @@ class RoundRobin():
         
     def stack_csv(self, teams_assigned=True):
         rows, cols = self.schedule.shape
-        header = np.array([['Spieltag','Heimspieler','Heimmannschaft','Heimtore','Auswärtstore','Auswärtsmannschaft','Auswärtsspieler']])
+        header = header = np.array([['Day','Player Home','Team Home','Home Score','Away Score','Away Team','Away Player']])
+        # header = np.array([['Spieltag','Heimspieler','Heimmannschaft','Heimtore','Auswärtstore','Auswärtsmannschaft','Auswärtsspieler']])
         day = 0
         if teams_assigned:
             for x in range(2):
@@ -72,7 +78,7 @@ class RoundRobin():
 
 
     def write_csv(self):
-        pd.DataFrame(self.csv_stack).to_csv("spielplan.csv",header=None,index=None)
+        pd.DataFrame(self.csv_stack).to_csv("schedule.csv",header=None,index=None)
 
     def print_schedule(self, teams_assigned=False):
         rows, cols = self.schedule.shape
